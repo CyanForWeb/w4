@@ -12,11 +12,11 @@ function randomValueFromArray(array){
 //const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
 //const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
 
-const storyText = 'その日は、とても暑かった。:insertx:は散歩に出掛けた。:inserty:に着いた。:insertz:体重:insertw:の:insertx:は驚いたが、Bobは驚かなかった。 :inserty:ではよくあることだった。';
-const insertX = ['スヌーピー', 'ミッキーマウス', 'サンタクロース'];
+const storyText = 'その日は、とても暑かった。:insertx:は散歩に出掛けた。:inserty:に着いた。:insertz: :insertw:の:insertx:は驚いたが、Bobは驚かなかった。 :inserty:ではよくあることだった。';
+const insertX = ['カワウソ', 'カモノハシ','パンダ','コアラ'];
 const insertY = ['ディズニーランド', '千駄ヶ谷', '津田塾大学'];
 const insertZ = ['混雑していた。', '雪が降っていた。'];
-const insertW = ['50kg','110ポンド'];
+const insertW = [''];
 
 randomize.addEventListener('click', result);
 
