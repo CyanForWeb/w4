@@ -12,7 +12,7 @@ function randomValueFromArray(array){
 //const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
 //const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
 
-const storyText = 'その日は、とても暑かった。 so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
+const storyText = 'その日は、とても暑かった。 :insertx:は:inserty:に散歩に出掛けた。:inserty:は:insertz::insertx:は笑った。';
 const insertX = ['カワウソ', 'カモノハシ','パンダ','コアラ'];
 const insertY = ['ディズニーランド', '千駄ヶ谷', '津田塾大学'];
 const insertZ = ['混雑していた。', '雪が降っていた。'];
