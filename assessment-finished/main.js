@@ -12,11 +12,11 @@ function randomValueFromArray(array){
 //const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
 //const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
 
-const storyText = 'その日は、とても暑かった。 :insertx:は:inserty:に散歩に出掛けた。:inserty:は:insertz::insertx:は笑った。';
+const storyText = 'その日は、とても暑かった。 :insertx:とBobは:inserty:に散歩に出掛けた。:inserty:は:insertz:Bobは驚いたが、:insertx:は驚かなかった。なぜなら:insertx:は:insertw:からであった。';
 const insertX = ['カワウソ', 'カモノハシ','パンダ','コアラ'];
 const insertY = ['ディズニーランド', '千駄ヶ谷', '津田塾大学'];
-const insertZ = ['混雑していた。', '雪が降っていた。'];
-const insertW = [''];
+const insertZ = ['混雑していた。', '雪が降っていた。','土砂降りだった。'];
+const insertW = ['前にも来たことがあった','感情表現が苦手であった','目の前のご馳走に目が眩んでいた'];
 
 randomize.addEventListener('click', result);
 
@@ -30,6 +30,8 @@ function result() {
 
   newStory = newStory.replace(':insertx:',xItem);
   newStory = newStory.replace(':insertx:',xItem);
+  newStory = newStory.replace(':insertx:',xItem);
+  newStory = newStory.replace(':inserty:',yItem);
   newStory = newStory.replace(':inserty:',yItem);
   newStory = newStory.replace(':insertz:',zItem);
   newStory = newStory.replace(':insertw:',wItem);
