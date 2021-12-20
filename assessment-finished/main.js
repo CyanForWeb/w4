@@ -14,7 +14,7 @@ function randomValueFromArray(array){
 
 const storyText = 'その日は、とても暑かった。 :insertx:とBobは:inserty:に散歩に出掛けた。:inserty:は:insertz:Bobは驚いたが、:insertx:は驚かなかった。なぜなら:insertx:は:insertw:からだ。';
 const insertX = ['カワウソ', 'カモノハシ','パンダ','コアラ'];
-const insertY = ['ディズニーランド', '千駄ヶ谷', '津田塾大学'];
+const insertY = ['鬼ヶ島', '竜宮城', '不思議の国'];
 const insertZ = ['混雑していた。', '雪が降っていた。','土砂降りだった。'];
 const insertW = ['前にも来たことがあった','感情表現が苦手であった','目の前のご馳走に目が眩んでいた'];
 
@@ -38,6 +38,7 @@ function result() {
 
   if (customName.value !== '') {
     const name = customName.value;
+    newStory = newStory.replace('Bob', name);
     newStory = newStory.replace('Bob', name);
   }
 
